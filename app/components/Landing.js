@@ -1,20 +1,23 @@
 import Image from 'next/image';
-import marathon from "../assets/marathon.jpg"
 import Timer from './Timer';
 
 
   export default function Landing() {     
   
     return (
-      <div className="relative min-h-screen ">
+      <div className="min-h-screen ">
         <div className="absolute inset-0 z-0">
-        <Image
-          src={marathon}
-          alt="Your Image Alt Text"
+        <video
+          autoPlay
+          loop
+          muted
           className="w-full h-full object-cover object-center"
           width={1080}
           height={513}
-        />
+        >
+          <source src= "/marathon.mp4"  type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
   
