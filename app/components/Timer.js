@@ -28,8 +28,6 @@ export default function Timer () {
     return(
         
         <div>
-            <h1 className="">Time Since Last Update</h1>
-            <br></br>
             <p className="">{uptime}</p>
         </div>
     )
