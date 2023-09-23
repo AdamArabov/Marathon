@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Marathon from "../assets/marathonlogo.png"
 import Timer from './Timer';
+import Button from './Button';
 
 
   export default function Landing() {     
@@ -43,6 +44,9 @@ import Timer from './Timer';
   
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
          
+        </div>
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+          <Button/>
         </div>
       </div>
     );
