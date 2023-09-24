@@ -27,7 +27,7 @@ export default function ImageCard () {
 
     ]
     return(
-        <section className=" pb-[300px]">
+        <section className="pb-[50px]">
           
             <div className="mt-12 flex flex-col md:flex-row justify-center items-center gap-5">
   {[0, 1,2,3].map((index) => (
