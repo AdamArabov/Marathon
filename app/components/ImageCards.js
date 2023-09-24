@@ -48,7 +48,7 @@ export default function ImageCard () {
             <div className="card-footer rounded-b-[20px] min-h-[100px] flex flex-col items-center justify-center">
               <h2 className="text-xl text-opacity-0 font-semibold text-white text-center">THEY ARE WATCHING US RUNNER</h2>  
               {index === expandedIndex && (
-                <p className="mt-2 text-gray-300 text-center">{cardDescriptions[index]} </p>
+                <p className="mt-2 text-gray-300 text-center text-opacity-0">{cardDescriptions[index]} </p>
               )
         
               }

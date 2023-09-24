@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+          'marathon': ['TTInterphasesPro','sans-serif']
+      },
       animation: {
         marquee:'marquee 108s linear infinite',
         marquee2:'marquee2 120s linear infinite'
