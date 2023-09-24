@@ -34,6 +34,7 @@ import Button from './Button';
   
      <Image
           src={Marathon}
+          priority
           alt="Your Image Alt Text"
           className="w-full h-full object-cover object-center"
           width={1080}
