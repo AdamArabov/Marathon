@@ -3,7 +3,7 @@
 import { useEffect , useState } from "react"
 
 export default function Timer () {
-    const [uptime,setUptime] = useState('Fetching...');
+    const [uptime,setUptime] = useState();
 
     useEffect ( () => {
         const calculateUpTime = () => {
