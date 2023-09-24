@@ -1,11 +1,13 @@
 import Image from 'next/image'
 
 import Landing from './components/Landing'
+import Marquee from './components/Marquee'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <Landing/>
+    <main className="">
+      <Landing style={{ marginBottom: "0" }} />
+      <Marquee style={{ marginTop: "0" }} />
     </main>
-  )
+  );
 }
