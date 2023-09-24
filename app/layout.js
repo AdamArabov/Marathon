@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -16,7 +17,10 @@ export default function RootLayout({ children }) {
       <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
 
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Footer/>
+        </body>
     </html>
   )
 }
