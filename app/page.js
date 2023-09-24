@@ -5,9 +5,9 @@ import Marquee from './components/Marquee'
 
 export default function Home() {
   return (
-    <main className="">
-      <Landing style={{ marginBottom: "0" }} />
-      <Marquee style={{ marginTop: "0" }} />
+    <main className="flex  flex-col mt-0 mb-0">
+      <Landing  />
+      <Marquee  />
     </main>
   );
 }
