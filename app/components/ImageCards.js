@@ -14,23 +14,24 @@ export default function ImageCard () {
             width: "3000px"
         },
         collasped: {
-            width: "500px"
+            width: "1000px"
         }
     }
 
-    const cardImages = ["/marathon.jpg", "/marathon2.jpg","/marathon3.jpg", "/marathon4.jpg"]
+    const cardImages = ["/marathon.jpg", "/marathon2.jpg","/marathon3.jpg", "/marathon4.jpg","/marathon5.jpg"]
     const cardDescriptions = [
         'YOU ARE',
         'NOT SAFE',
-        'We ARE',
+        'WE ARE',
         'WATCHING',
+        'DONT BELIEVE THEM RUNNER'
 
     ]
     return(
         <section className="pb-[50px]">
           
             <div className="mt-12 flex flex-col md:flex-row justify-center items-center gap-5">
-  {[0, 1,2,3].map((index) => (
+  {[0, 1,2,3,4].map((index) => (
     <motion.div
       key={index} 
       className={`card cursor-pointer h-[500px] bg-cover bg-center ${index === expandedIndex ? ' expanded' : ''}`}
@@ -45,7 +46,7 @@ export default function ImageCard () {
     >
         <div className=" card-content h-full flex flex-col justify-end">
             <div className="card-footer rounded-b-[20px] min-h-[100px] flex flex-col items-center justify-center">
-              <h2 className="text-xl font-semibold text-white text-center">{index * 777}</h2>  
+              <h2 className="text-xl text-opacity-0 font-semibold text-white text-center">THEY ARE WATCHING US RUNNER</h2>  
               {index === expandedIndex && (
                 <p className="mt-2 text-gray-300 text-center">{cardDescriptions[index]} </p>
               )
