@@ -57,6 +57,15 @@ export default function ImageCard () {
     };    
 
     const cardImages = ["/marathon.jpg", "/marathon2.jpg","/marathon3.jpg", "/marathon4.jpg","/marathon5.jpg"]
+
+    const cardTitles = [
+        'WELCOME',
+        'POWER AWAITS YOU',
+        'WILL YOU SURVIVE',
+        'BRING YOUR BEST',
+        'WIN.KILL.SURVIVE'
+    ]
+
     const cardDescriptions = [
         'YOU ARE',
         'NOT SAFE',
@@ -91,7 +100,7 @@ export default function ImageCard () {
     >
         <div className=" card-content h-full flex flex-col justify-end">
             <div className="card-footer rounded-b-[20px] min-h-[100px] flex flex-col items-center justify-center">
-              <h2 className="text-xl text-opacity-0 font-semibold text-white text-center">THEY ARE WATCHING US RUNNER</h2>  
+              <h2 className="text-xl  font-semibold text-opacity-0 text-marathon2 text-center">{cardTitles[index]}</h2>  
               {index === expandedIndex && (
                 <p className="mt-2 text-gray-300 text-center text-opacity-0">{cardDescriptions[index]} </p>
               )
