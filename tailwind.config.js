@@ -11,7 +11,7 @@ module.exports = {
           'marathon': ['TTInterphasesPro','sans-serif']
       },
       animation: {
-        marquee:'marquee 108s linear infinite',
+        marquee:'marquee 20s linear infinite',
         marquee2:'marquee2 120s linear infinite'
       },
       keyframes: {

@@ -4,6 +4,7 @@ import Landing from './components/Landing'
 import Marquee from './components/Marquee'
 import ImageCard from './components/ImageCards';
 import News from './components/News';
+import NewsFeed from './components/NewsFeed';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Landing  />
       <Marquee  />
       <ImageCard />
+      <NewsFeed/>
       <News/>
     </main>
   );
