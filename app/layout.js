@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Marathon',
   description: 'Welcome to the Marathon Fanpage, we track all upcoming news and trailers for Bungies next title Marathon',
-  keywords: 'Marathon, Marathon Fanpage, Marathon Game, Marathon Trilogy, Marathon Bungie, Marathon Infinity, Marathon 2, Marathon Durandal, Marathon Rubicon, Marathon Aleph One, Marathonthegame.com, marathonthegame.com, marathonthegame.site'
+  keywords: 'pageName Announcement, Marathon, Marathon Fanpage, Marathon Game, Marathon Trilogy, Marathon Bungie, Marathon Infinity, Marathon 2, Marathon Durandal, Marathon Rubicon, Marathon Aleph One, Marathonthegame.com, marathonthegame.com, marathonthegame.site'
 }
 
 export default function RootLayout({ children }) {
