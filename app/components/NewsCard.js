@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '@/utils/Animations'
 import Image from 'next/image'
 
-export default function NewsCard({title,content,image,link,index}){
+export default function NewsCard({title,content,image,link,date,index}){
   //This handles the Individual News Card
   //246x138
     return(
@@ -24,6 +24,7 @@ export default function NewsCard({title,content,image,link,index}){
             <h4 className="font-normal lg:text-[42px] text-[26px] text-marathon">
               {title}
             </h4>
+            <h2 className='text-marathon opacity-25'>{date}</h2>
             <p className="mt-[16px] font-normal lg:text-[15px] text-[14px] text-marathon2">
             {content}{" "}
             {link ? (
