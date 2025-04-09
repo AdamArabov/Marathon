@@ -18,7 +18,7 @@ import Button from './Button';
           width={1080}
           height={513}
         >
-          <source src= "/marathon2.mp4"  type="video/mp4" />
+          <source src= "/marathon.mp4"  type="video/mp4" />
           Your browser does not support the video tag.
         </video>
        
