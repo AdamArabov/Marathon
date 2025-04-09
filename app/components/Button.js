@@ -1,7 +1,7 @@
 "use client"
 
 export default function Button() {
-    const trailer = "https://www.youtube.com/watch?v=PZUv1-qR1Aw&ab_channel=Marathon";
+    const trailer = "https://youtu.be/PZUv1-qR1Aw";
   
     const handleButtonClick = () => {
       window.open(trailer, "_blank");
